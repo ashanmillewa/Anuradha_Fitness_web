@@ -3,6 +3,11 @@ import './Home.css';
 
 import Header from '../Header/Header';
 
+import home_image from "../../assets/home_image.png";
+import home_image_back from "../../assets/home_image_back.png";
+import heart from "../../assets/heart.png";
+import calories from "../../assets/calories.png";
+
 function Home() {
   return (
     <div className='Home'>
@@ -60,8 +65,29 @@ function Home() {
 
 
 
-      <div className="right-h">right</div>
-      
+      <div className="right-h">
+        <button className="btn">Join Now</button>
+
+        <div className="heart-rate">
+          <img src={heart} alt=""/>
+          <span>Heart Rate</span><span>116 bmp</span>
+        </div>
+
+{/*home image*/}
+    <img src={home_image} alt="" className="home-image"/>
+    <img src={home_image_back} alt="" className='home-image-back'/>
+
+{/*calories*/}
+    <div className="calories">
+    <img src={calories} alt="" />
+
+          <div>
+            <span>Calories Burned</span>
+            <span>220 kcal</span>
+          </div>
+
+        </div>
+      </div>
     </div>
   );
 }
