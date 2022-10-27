@@ -11,6 +11,7 @@ import nb from '../../assets/nb.png';
 import adidas from '../../assets/adidas.png';
 import nike from '../../assets/nike.png';
 
+
 function Reasons() {
   return (
     <div className='Reasons' id='reasons'>
