@@ -5,22 +5,13 @@ import Header from '../Header/Header';
 
 import home_image from "../../assets/home_image.png";
 import home_image_back from "../../assets/home_image_back.png";
-import heart from "../../assets/heart.png";
-import calories from "../../assets/calories.png";
-
 function Home() {
   return (
     <div className='Home'>
       <div className="left-h">
         <Header/>
 
-    {/*the best ad*/}
-      <div className="the-best-ad">
-        <div></div>
-        <span>the best fitness clun in the town</span>
-      </div>
-
-    {/*Home heading*/}
+  {/*e heading*/}
       <div className="home-text">
         <div>
           <span className='stroke-text'>Shape </span>
