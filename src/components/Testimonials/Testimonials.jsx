@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
-import './Testimonials.css';
-import {testimonialsData} from '../../data/testimonialsData'; 
+import './Testimonials.css'; 
     </div>
   );
 }
