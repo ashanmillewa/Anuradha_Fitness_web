@@ -1,5 +1,4 @@
-import React,{useState} from 'react';
-import './Testimonials.css'; 
+import React,{useState} from 'react'; 
     </div>
   );
 }
