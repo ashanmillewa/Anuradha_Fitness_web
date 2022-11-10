@@ -51,9 +51,4 @@
 
 .btn-j{
     background-color: var(--orange);
-    color: white;
-}
-
-::placeholder{
-    color: var(--lightgrey);
-}
+    color: white; 
