@@ -10,7 +10,12 @@
     gap: 2rem;
     flex-direction: column;
     text-transform: uppercase;
-    color: white; 
+    color: white;
+}
+
+.ash{
+    color: white;
+}
 
 .left-t:nth-child(1){
     color: var(--orange);
