@@ -1,6 +1,1 @@
  
-    </div>
-  );
-}
-
-export default Testimonials;
