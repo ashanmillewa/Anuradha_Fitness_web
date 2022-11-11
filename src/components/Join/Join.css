@@ -52,4 +52,7 @@
 .btn-j{
     background-color: var(--orange);
     color: white;
+    cursor: pointer;
 }
+
+ 
