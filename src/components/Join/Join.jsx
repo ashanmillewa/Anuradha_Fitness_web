@@ -1,5 +1,11 @@
-import React,{useRef} from 'react';
-import './Join.css';
-import emailjs from '@emailjs/browser';
+import React from 'react';
 
- 
+function Join() {
+  return (
+    <div>
+      
+    </div>
+  );
+}
+
+export default Join;
