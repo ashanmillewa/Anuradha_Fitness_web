@@ -1,7 +1,7 @@
  import React, {useState} from 'react';
  import './Testimonials.css';
  import {testimonialsData} from '../../data/testimonialsData';
- 
+  
  function Testimonials() {
 
     const [selected, setSelected] = useState(0);
@@ -24,8 +24,7 @@
             </span>
         </div>
 
-        <div className="right-t">
-            
+        <div className="right-t"> 
         </div>
        
      </div>

@@ -61,6 +61,7 @@
     height: 19rem; 
     right: 7rem;
     top: 4rem; 
+    background: var(--plancard);
 }
 
 .arrows{
