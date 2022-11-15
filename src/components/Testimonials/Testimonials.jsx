@@ -2,6 +2,8 @@
  import './Testimonials.css';
  import {testimonialsData} from '../../data/testimonialsData';
  
+ import leftArrow from '../../assets/leftArrow.png';
+ import rightArrow from '../../assets/rightArrow.png';
  function Testimonials() {
 
     const [selected, setSelected] = useState(0);
@@ -12,8 +14,8 @@
         <div className="left-t">
             <span>Testimonials</span>
             <span className="stroke-text">what they</span>
-            <span>say about us</span>
-            <span>
+            <span className='say'>say about us</span>
+            <span className='cmnt'>
                 {testimonialsData[selected].review}
             </span>
             <span>
@@ -25,7 +27,32 @@
         </div>
 
         <div className="right-t">
+            <div></div>
+            <div></div>
+
+            <img src={testimonialsData[selected].image} alt="" />
             
+            <div className="arrows">
+                <img 
+                onClick={() => {
+                    selected === 0
+                    ? setSelected(tLength -1)
+                    : setSelected((prev) => prev - 1);
+                }}
+                src={leftArrow}
+                 alt="" 
+                 />
+
+<img 
+                onClick={() => {
+                    selected === tLength - 1
+                    ? setSelected(0)
+                    : setSelected((prev) => prev + 1);
+                }}
+                src={rightArrow}
+                 alt="" 
+                 />
+            </div>
         </div>
        
      </div>

@@ -7,7 +7,10 @@
 .left-t{
     display: flex;
     flex: 1 1;
- 
+    gap: 2rem;
+    flex-direction: column; 
+}
+
 .left-t:nth-child(1){
     color: var(--orange);
     font-weight: bold;
@@ -61,6 +64,7 @@
     height: 19rem; 
     right: 7rem;
     top: 4rem; 
+    background: var(--plancard);
 }
 
 .arrows{
@@ -77,4 +81,14 @@
     width: 1.5rem;
     height: 1.5rem;
     cursor: pointer;
+}
+
+.say{
+    color: white;
+    text-transform: uppercase;
+}
+
+.cmnt{
+    color: white;
+    
 }
