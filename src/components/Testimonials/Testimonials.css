@@ -7,7 +7,10 @@
 .left-t{
     display: flex;
     flex: 1 1;
- 
+    gap: 2rem;
+    flex-direction: column; 
+}
+
 .left-t:nth-child(1){
     color: var(--orange);
     font-weight: bold;
@@ -78,4 +81,14 @@
     width: 1.5rem;
     height: 1.5rem;
     cursor: pointer;
+}
+
+.say{
+    color: white;
+    text-transform: uppercase;
+}
+
+.cmnt{
+    color: white;
+    
 }
