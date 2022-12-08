@@ -5,7 +5,7 @@ import Program from './components/Program/Program';
 import Reasons from './components/Reasons/Reasons';
  import Plans from './components/Plans/Plans';
  import Testimonials from './components/Testimonials/Testimonials';
-//import Join from './components/Join/Join';
+import Join from './components/Join/Join';
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
          <Reasons/>
      <Plans/>
        <Testimonials/>
-  {/* <Join/>*/}
+ <Join/>
 
-}
+
 
     </div>
   );
