@@ -3,7 +3,7 @@ import './Join.css';
 import emailjs from '@emailjs/browser';
 
 
-function Join() {
+const Join = () => {
   const form = useRef()
 
   const sendEmail = (e) => {
