@@ -26,7 +26,7 @@ function Home() {
         whileInView={{left:'8px'}}
         transition={{...transition,type:'tween'}}
         ></motion.div>
-        <span>the best fitness clun in the town</span>
+        <span>the best fitness club in the town</span>
       </div>
 
     {/*Home heading*/}
